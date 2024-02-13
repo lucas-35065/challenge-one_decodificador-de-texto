@@ -7,10 +7,30 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    
-</body>
-<footer>
+<header class="cabecalho">
+    <img src="#" alt="logo do projeto">
+</header>
 
+<body>
+    <main class="container">
+        <div class="texto_usuario">
+            <textarea class="texto_usuario_input" id="texto_decodificar" name="texto_codificado" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <p class="texto_usuario_informacao">Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <div class="decodificador">
+            <button id="botao_criptografar" class="decodificador_botao">Criptografar</button>
+            <button id="botao_descriptografar" class="decodificador_botao">Descriptografar</button>
+        </div>
+ 
+        <div class="texto_decodificado" id="mostruario_texto_decodificado">
+            <h1 class="texto_decodificado_titulo">Nenhuma mensagem encontrada</h1>
+            <p class="texto_decodificado_conteudo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+    </main>
+</body>
+
+<footer class="rodape">
+<h1>Desenvolvido por <a href="#">Lucas Rodrigues</a></h1>
 </footer>
 </html>
